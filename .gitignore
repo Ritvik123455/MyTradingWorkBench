@@ -1,0 +1,33 @@
+# ---- Secrets & environment ----
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+secrets/
+
+# ---- OS ----
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---- IDE ----
+.idea/
+*.iml
+*.iws
+*.ipr
+.vscode/
+
+# ---- Claude Code local settings ----
+.claude/settings.local.json
+
+# ---- Frontend (Phase 4) ----
+node_modules/
+frontend/dist/
+frontend/build/
+npm-debug.log*
+
+# ---- Logs ----
+*.log
+logs/
